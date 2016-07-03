@@ -1,7 +1,7 @@
 # Drone RP0
 A Raspberry Pi Zero Drone Build
 
-[![version](https://img.shields.io/badge/status-alpha-red.svg)](https://github.com/robinsonvoly/drone-rp0/)	[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/robinsonvoly/drone-rp0/blob/build/LICENSE)
+[![version](https://img.shields.io/badge/status-alpha-red.svg)](https://github.com/robinsonvoly/drone-rp0/)	[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/robinsonvoly/drone-rp0/blob/build/LICENSE) [![language](https://img.shields.io/badge/language-C-blue.svg)](https://github.com/robinsonvoly/drone-rp0/)
 
 ##### Modules:
 - Raspberry Pi Zero
