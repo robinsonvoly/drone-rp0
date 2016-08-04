@@ -13,13 +13,4 @@ A Raspberry Pi Zero Drone Build
 
 ## Authors:
 Robinson Vo-Ly ([Portfolio](http://www.robinsonvoly.com/ "Robinson's Portfolio"))  
-<<<<<<< HEAD
-<<<<<<< HEAD
 Mun Chan ([Github](https://github.com/munnnn "Mun's Github"))
-=======
-Mun Chan
->>>>>>> build
-=======
-Mun Chan ([Github](https://www.github.com/munnnn "Mun's Github"))
-
->>>>>>> build
