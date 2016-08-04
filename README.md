@@ -7,9 +7,11 @@ A Raspberry Pi Zero Drone Build
 - Raspberry Pi Zero
 - IMU 10DOF - MPU9250 Gyro and Accelerometer and Magnometer + MS5611 Altimeter
 - ADS1115 4 Channel 16 Bit I2C ADC
+
 ##### Drone Parts:
 - HobbyKing Spec FPV250 V2
 
 ## Authors:
 Robinson Vo-Ly ([Portfolio](http://www.robinsonvoly.com/ "Robinson's Portfolio"))  
-Mun Chan
+Mun Chan ([Github](https://www.github.com/munnnn "Mun's Github"))
+
