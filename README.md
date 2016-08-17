@@ -5,6 +5,7 @@ A Raspberry Pi Zero Drone Build
 
 ##### Modules:
 - Raspberry Pi Zero
+ - w/ Raspbian Jesse Image
 - UCTRONICS MS5611 HMC5883L MPU6050 10-DOF GY-86
  - 10-Axis Imu Sensor Module Variometer Digital Compass MEMS Gyroscope Accelerometer DMP
 - ADS1115 4 Channel 16 Bit I2C ADC
