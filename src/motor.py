@@ -1,18 +1,19 @@
+#!/usr/bin/python
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(11, GPIO.OUT)
 
 dc = 5
 
-servo = GPIO.PWM(11,50)
-servo.start(10)
-print('***Connect Battery & Press ENTER to start')
+servo = GPIO.PWM(11,1000)
+servo.start(dc)
+print('Connect Battery & Press ENTER to start')
 res = raw_input()
-servo.ChangeDutyCycle(dc) #servo.ChangeDutyCycle(5)
-print('***Press ENTER to start')
+servo.ChangeDutyCycle(dc)
+print('Press ENTER to start')
 res = raw_input()
 
-print ('increase > a | decrease > z | save Wh > n | set Wh > h|quit > 9')
+print ('Increase > a | Decrease > z | Save Wh > n | Set Wh > h | Quit > 9')
 
 cycling = True
 try:
@@ -28,13 +29,12 @@ try:
         if res == '9':
             cycling = False
 finally:
-    # shut down cleanly
+    # Shut down
     servo.stop()
     print ("dc var setting is: ")
     print (dc)
 
-
-print('***Press ENTER to quit')
+print('Press ENTER to quit')
 res = raw_input()
 servo.stop()
 GPIO.cleanup()
